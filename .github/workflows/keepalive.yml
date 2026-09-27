@@ -1,0 +1,42 @@
+name: keepalive
+
+# GitHub disables scheduled workflows on public repos after 60 days with no
+# *human/push* activity, and commits made with GITHUB_TOKEN do NOT count.
+# Create a fine-grained Personal Access Token (repo contents: write), store it
+# as a secret named KEEPALIVE_PAT, and this workflow will push an empty commit
+# whenever the repo has gone quiet — resetting the timer as a real push.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # weekly, Monday 11:30 IST
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Push empty commit if repo is going quiet
+        env:
+          PAT: ${{ secrets.KEEPALIVE_PAT }}
+        run: |
+          LAST=$(git log -1 --format=%cI)
+          DAYS=$(( ( $(date +%s) - $(date -d "$LAST" +%s) ) / 86400 ))
+          echo "last commit ${DAYS} days ago"
+          if [ "$DAYS" -lt 45 ]; then exit 0; fi
+          if [ -z "$PAT" ]; then
+            echo "::warning::No KEEPALIVE_PAT secret — bot commits do not reset the"
+            echo "::warning::60-day scheduler disable. Add a PAT or commit manually."
+          fi
+          git config user.name "keepalive"
+          git config user.email "keepalive@users.noreply.github.com"
+          git commit --allow-empty -m "keepalive $(date -u +%F) [skip ci]"
+          if [ -n "$PAT" ]; then
+            git push "https://x-access-token:${PAT}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
+          else
+            git push
+          fi

@@ -1,0 +1,37 @@
+{
+  "full_name": "Chinnapondara Manikanta",
+  "summary": "B.Tech AI & ML student (2023-2027) seeking a Python Full Stack Developer role; experience in Python, Django, HTML, CSS, JavaScript, and SQL, with a 2-month full stack internship.",
+  "skills": [
+    "Python",
+    "Django",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "MySQL",
+    "MongoDB",
+    "Git",
+    "GitHub",
+    "VS Code",
+    "OpenCV",
+    "Tkinter",
+    "Twilio",
+    "Machine Learning",
+    "NLP",
+    "Explainable AI"
+  ],
+  "titles": [
+    "Python Full Stack Developer",
+    "Python Developer",
+    "Django Developer",
+    "Web Developer"
+  ],
+  "locations": [
+    "Andhra Pradesh, India"
+  ],
+  "years_experience": 0.2,
+  "education": "B.Tech in Artificial Intelligence & Machine Learning, Sri Sivani College of Engineering, 2023-2027. Certifications: Python Programming (Guvi), Generative AI (Guvi), Python Full Stack Internship Certificate (Datavelly).",
+  "projects": [
+    "Face Recognition Door Lock System — Python, OpenCV, Tkinter, MongoDB, Twilio: smart security system with LBPH face recognition, user registration, access logging, admin OTP authentication",
+    "Fake News Analyzer — Python, Django, ML, NLP, HTML, CSS, JavaScript, MySQL: web platform classifying news as real/fake with Explainable AI, source credibility analysis, and interactive dashboard"
+  ]
+}

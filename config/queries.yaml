@@ -1,0 +1,28 @@
+# Saved JSearch queries — one API request each per night.
+# 5 queries x 30 nights = ~150 of the 195 monthly budget. Don't add more.
+queries:
+  - name: "Python developer (fresher, remote)"
+    query: "python developer fresher"
+    location: "India"
+    remote: true
+  - name: "Django developer (remote)"
+    query: "django developer"
+    location: "India"
+    remote: true
+  - name: "Full stack intern"
+    query: "full stack developer intern"
+    location: "India"
+  - name: "Python developer (local)"
+    query: "python developer"
+    location: "Visakhapatnam, Andhra Pradesh"
+  - name: "ML engineer (intern, remote)"
+    query: "machine learning engineer intern"
+    location: "India"
+    remote: true
+
+# Jobs posted in the last N days are eligible.
+max_age_days: 7
+
+# Requests per month cap (JSearch free tier = 200). The agent refuses to run
+# once the current month's counter hits this number.
+monthly_request_budget: 195

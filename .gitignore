@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+*.log
+reports/*.draft.md
+# Personal resume with contact details — stays local; redacted resume.json is tracked instead.
+data/mani (1).pdf
