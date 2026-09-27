@@ -26,6 +26,7 @@ jobs:
         env:
           RAPID_API_KEY: ${{ secrets.RAPID_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PYTHONPATH: src
         run: python -m morning_job_agent
 
       - name: Commit report + state
