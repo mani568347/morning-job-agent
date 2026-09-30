@@ -363,6 +363,54 @@
     "081b9f9e29da3a1db2e64c3a07b36f93f6998dac": {
       "first_seen": "2026-09-29",
       "score": 0
+    },
+    "f960988d746053a556a331341e9aa956df4cd5b6": {
+      "first_seen": "2026-09-30",
+      "score": 15
+    },
+    "8505bcea1ce1fbd12ae54c096041fae6f27c79e2": {
+      "first_seen": "2026-09-30",
+      "score": 90
+    },
+    "9b9534f4fe483f4bcbdf3efbd23d7cb9db0ea4fc": {
+      "first_seen": "2026-09-30",
+      "score": 0
+    },
+    "3fc74e2ee17f95498562d7ad85fb96a451fcecc5": {
+      "first_seen": "2026-09-30",
+      "score": 68
+    },
+    "c6906b369832b546e16d906c844ffd92ea227399": {
+      "first_seen": "2026-09-30",
+      "score": 52
+    },
+    "ca6612e2bb372cf584fd29f29629375e4c62c7d6": {
+      "first_seen": "2026-09-30",
+      "score": 58
+    },
+    "272eb1c0133d5c2394f352540312dc49b2be9593": {
+      "first_seen": "2026-09-30",
+      "score": 15
+    },
+    "ac5a8442532f4cd95895997d97e501bab416b0ed": {
+      "first_seen": "2026-09-30",
+      "score": 0
+    },
+    "41ed013cde21747b402d2eefa82b73bf720cd44e": {
+      "first_seen": "2026-09-30",
+      "score": 15
+    },
+    "fabced73b8a185ae9cb99bfd7f56ad25eab1345e": {
+      "first_seen": "2026-09-30",
+      "score": 85
+    },
+    "34e3cabea0bd6f3d86bd2f3c0107b277409addc2": {
+      "first_seen": "2026-09-30",
+      "score": 35
+    },
+    "e7b5ac33dd3d64ab3bbcf5d6480250c380f83dd3": {
+      "first_seen": "2026-09-30",
+      "score": 28
     }
   }
 }
