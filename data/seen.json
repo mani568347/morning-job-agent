@@ -491,6 +491,22 @@
     "0c5318dafd591e77ec184aca1decb913a10f2fc8": {
       "first_seen": "2026-10-02",
       "score": 25
+    },
+    "95e2a8da9dd518a7b393c3602b768d589e0f5f0c": {
+      "first_seen": "2026-10-03",
+      "score": 15
+    },
+    "0eacb6ce4c668fadabdedcaf5b7504d341152812": {
+      "first_seen": "2026-10-03",
+      "score": 30
+    },
+    "f70d724da1a469718a52fb8d2b1f2a4557baeb0b": {
+      "first_seen": "2026-10-03",
+      "score": 55
+    },
+    "0f4ba12be03035bd8f2d9596fe25d6f2f3dad797": {
+      "first_seen": "2026-10-03",
+      "score": 95
     }
   }
 }
