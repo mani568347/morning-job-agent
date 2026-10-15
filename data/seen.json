@@ -855,6 +855,30 @@
     "7c78a3f42efb24cb04d8c109ac72909cb5b561a5": {
       "first_seen": "2026-10-14",
       "score": 0
+    },
+    "1b3563f0d7e0eadae80fcc48b2696e81f5620fd5": {
+      "first_seen": "2026-10-15",
+      "score": 35
+    },
+    "4919ec5861af13c4894be30720f2f9c2e0eb5126": {
+      "first_seen": "2026-10-15",
+      "score": 50
+    },
+    "6817dce9b5ec65ce5c3dc1c192226d740373526b": {
+      "first_seen": "2026-10-15",
+      "score": 45
+    },
+    "2cf71e179febc206ad8afbd022d8e2a56e4dd8ae": {
+      "first_seen": "2026-10-15",
+      "score": 85
+    },
+    "c584771bbd058776855f1a502be1a993d4f32db6": {
+      "first_seen": "2026-10-15",
+      "score": 88
+    },
+    "e2241361de8cc61f8a3fde1b511fd065454a15d2": {
+      "first_seen": "2026-10-15",
+      "score": 92
     }
   }
 }
