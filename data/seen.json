@@ -1251,6 +1251,22 @@
     "741a53873706b84bc816a505665a8d28bac0407f": {
       "first_seen": "2026-11-06",
       "score": 0
+    },
+    "fe280c11e1a71836969be2f0e9c041e9d6ad8e5d": {
+      "first_seen": "2026-11-07",
+      "score": 5
+    },
+    "9e1a02e3f384ff24f03e7482ab48bcc97ccb9400": {
+      "first_seen": "2026-11-07",
+      "score": 15
+    },
+    "97f5c3e54e5ddb5b98d74524079e881c6bcf8a3b": {
+      "first_seen": "2026-11-07",
+      "score": 48
+    },
+    "8c64ded46a1cea4be1df423adc6ecc9d23968bb7": {
+      "first_seen": "2026-11-07",
+      "score": 15
     }
   }
 }
