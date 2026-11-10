@@ -1323,6 +1323,22 @@
     "d80f708b93b7c87342bea1f838a9d0fa3bfd332f": {
       "first_seen": "2026-11-09",
       "score": 25
+    },
+    "56d2c50925ccee7585a4716824da43a90e8d39a1": {
+      "first_seen": "2026-11-10",
+      "score": 0
+    },
+    "b6f0cf7500997737baed6c3b3f2e9c9683015232": {
+      "first_seen": "2026-11-10",
+      "score": 15
+    },
+    "aad20ae9e60955b40988bd2d6ab6d92725f4b3da": {
+      "first_seen": "2026-11-10",
+      "score": 38
+    },
+    "35752e7d2ea81e4dde639af680a820d309cd1887": {
+      "first_seen": "2026-11-10",
+      "score": 60
     }
   }
 }
