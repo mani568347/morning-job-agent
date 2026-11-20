@@ -1607,6 +1607,30 @@
     "0c8e8cdd92f8870552640c237dd5a96ca2cd956c": {
       "first_seen": "2026-11-19",
       "score": 0
+    },
+    "8834ac87ea1ece247c21e1e124807e3e35f0b79b": {
+      "first_seen": "2026-11-20",
+      "score": 25
+    },
+    "b5b97cc8cc4b5ca2acaae316e86f874dab899ce4": {
+      "first_seen": "2026-11-20",
+      "score": 88
+    },
+    "8cd5fde8f47a3c1d88f894764531a245ec24cea1": {
+      "first_seen": "2026-11-20",
+      "score": 38
+    },
+    "dd180817925b9090d1365b8a0b69cb8884fdda9e": {
+      "first_seen": "2026-11-20",
+      "score": 15
+    },
+    "71c04c1857bbec6e94c526f0aad913ce60a9fc85": {
+      "first_seen": "2026-11-20",
+      "score": 72
+    },
+    "5818b063a78e256797d7365072db4dba06978e3d": {
+      "first_seen": "2026-11-20",
+      "score": 62
     }
   }
 }
