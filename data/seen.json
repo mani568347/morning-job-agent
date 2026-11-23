@@ -1659,6 +1659,18 @@
     "1b72054a0088b8724416fff44b80bf43cbd97492": {
       "first_seen": "2026-11-22",
       "score": 48
+    },
+    "feddd48fc1b24cfc31f1fb68a0b0959bbe197c65": {
+      "first_seen": "2026-11-23",
+      "score": 15
+    },
+    "1a0a3e53bf466d9cd2ede5641596db708adcc5a0": {
+      "first_seen": "2026-11-23",
+      "score": 40
+    },
+    "7e054be432ba7a9cc0d749ef0d2951fd2f95e9fe": {
+      "first_seen": "2026-11-23",
+      "score": 35
     }
   }
 }
